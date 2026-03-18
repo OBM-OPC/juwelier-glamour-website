@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Über Juwelier Glamour Berlin – Erfahren Sie mehr über Brian, unseren Experten, und unsere Geschichte. Seit 1995 Ihr vertrauensvoller Juwelier.">
+    <meta name="keywords" content="Juwelier Glamour Berlin, Brian Juwelier, Über uns, Juwelier Geschichte, Goldankauf Experte">
+    <meta name="author" content="Juwelier Glamour">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Über uns | Juwelier Glamour Berlin">
+    <meta property="og:description" content="Lernen Sie Juwelier Glamour kennen. Brian und sein Team stehen seit 1995 für Qualität und Vertrauen.">
+    <meta property="og:type" content="website">
+    <title>Über uns | Juwelier Glamour Berlin</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>">
+    
+    <style>
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+        
+        .team-card {
+            text-align: center;
+            padding: 40px 30px;
+            background: var(--white);
+            border-radius: 8px;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .team-card:hover {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transform: translateY(-5px);
+        }
+        
+        .team-avatar {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, var(--gold), var(--champagne));
+            border-radius: 50%;
+            margin: 0 auto 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+        
+        .team-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+        }
+        
+        .team-role {
+            color: var(--gold);
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+        
+        .team-card p {
+            color: rgba(10, 10, 10, 0.6);
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .value-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+        
+        .value-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--light-gold);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gold);
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+        
+        .value-content h4 {
+            font-size: 1rem;
+            margin-bottom: 6px;
+        }
+        
+        .value-content p {
+            color: rgba(10, 10, 10, 0.6);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        
+        @media (min-width: 768px) {
+            .values-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+        
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 60px auto 0;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(to bottom, var(--gold), var(--champagne));
+        }
+        
+        .timeline-item {
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 50%;
+            position: relative;
+            margin-bottom: 50px;
+        }
+        
+        .timeline-item:nth-child(even) {
+            justify-content: flex-start;
+            padding-right: 0;
+            padding-left: 50%;
+        }
+        
+        .timeline-content {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            max-width: 350px;
+            position: relative;
+            margin-right: 30px;
+        }
+        
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-right: 0;
+            margin-left: 30px;
+        }
+        
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 16px;
+            height: 16px;
+            background: var(--gold);
+            border-radius: 50%;
+            border: 3px solid var(--white);
+            box-shadow: 0 0 0 3px var(--gold);
+        }
+        
+        .timeline-year {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--gold);
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .timeline-content h4 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        
+        .timeline-content p {
+            color: rgba(10, 10, 10, 0.6);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 767px) {
+            .timeline::before {
+                left: 20px;
+            }
+            
+            .timeline-item,
+            .timeline-item:nth-child(even) {
+                justify-content: flex-start;
+                padding-left: 60px;
+                padding-right: 0;
+            }
+            
+            .timeline-content,
+            .timeline-item:nth-child(even) .timeline-content {
+                margin-left: 0;
+                margin-right: 0;
+                max-width: 100%;
+            }
+            
+            .timeline-dot {
+                left: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">✦</div>
+                    Juwelier <span>Glamour</span>
+                </a>
+                
+                <nav class="nav-desktop">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Goldankauf</a></li>
+                        <li><a href="trauringe.html" class="nav-link">Trauringe</a></li>
+                        <li><a href="kreuzschmiede.html" class="nav-link">Kreuzschmiede</a></li>
+                        <li><a href="ueber-uns.html" class="nav-link active">Über uns</a></li>
+                        <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="menu-toggle" aria-label="Menü öffnen">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        
+        <nav class="nav-mobile">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Goldankauf</a></li>
+                <li><a href="trauringe.html" class="nav-link">Trauringe</a></li>
+                <li><a href="kreuzschmiede.html" class="nav-link">Kreuzschmiede</a></li>
+                <li><a href="ueber-uns.html" class="nav-link active">Über uns</a></li>
+                <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 70vh;">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">Seit 1995</div>
+                    <h1>Unsere<br><span>Geschichte</span></h1>
+                    <p class="hero-subtitle">Von einem kleinen Familienbetrieb zu einem der angesehensten Juweliere Berlins. Eine Geschichte von Leidenschaft, Handwerk und dem Streben nach Perfektion.</p>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="hero-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1589674781759-c21c37956a44?w=800&q=80" alt="Juwelier Geschäft - Juwelier Glamour Berlin" loading="eager">
+                    </div>
+                    <div class="hero-image-accent"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="section bg-warm">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="section-label">Unser Ursprung</span>
+                    <h2>Wie alles begann</h2>
+                    <p>Im Jahr 1995 eröffnete Brian Ungemacher sein erstes Juweliergeschäft in der Berliner Innenstadt. Mit nicht mehr als einem kleinen Laden, einer Handvoll Werkzeuge und einem großen Traum begann er seine Reise.</p>
+                    
+                    <p>Brian lernte das Handwerk von seinem Vater, einem renommierten Goldschmied aus München. Die traditionellen Techniken, die er in seiner Jugend erlernte, verband er mit modernem Design und zeitlosem Stil.</p>
+                    
+                    <p>Was als kleiner Familienbetrieb begann, wuchs schnell zu einem festen Begriff in der Berliner Juwelier-Szene. Heute ist Juwelier Glamour Synonym für Qualität, Seriosität und außergewöhnliche Handwerkskunst.</p>
+                </div>
+                
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=600&q=80" alt="Goldschmied bei der Arbeit - Brian Ungemacher" loading="lazy">
+                    </div>
+                    <div class="about-image-frame"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Meilensteine</span>
+                <h2 class="section-title">Unsere Geschichte</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">1995</div>
+                        <h4>Die Gründung</h4>
+                        <p>Brian eröffnet sein erstes Juweliergeschäft in Berlin-Mitte mit dem Fokus auf Goldankauf und Schmuckreparaturen.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2003</div>
+                        <h4>Expansion</h4>
+                        <p>Umzug in größere Räumlichkeiten und Erweiterung des Sortiments um exklusive Trauringe namhafter Hersteller.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2010</div>
+                        <h4>Kreuzschmiede</h4>
+                        <p>Integration der traditionellen Kreuzschmiede Ungemacher – eine Hommage an Brians Familientradition.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2024</div>
+                        <h4>Heute</h4>
+                        <p>Juwelier Glamour ist ein fest etablierter Name in Berlin – bekannt für Seriosität, Qualität und außergewöhnlichen Service.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section bg-warm">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Das Team</span>
+                <h2 class="section-title">Lernen Sie uns kennen</h2>
+                <p class="section-subtitle">Hinter Juwelier Glamour steht ein engagiertes Team von Experten, die ihre Leidenschaft für Schmuck und Edelmetalle teilen.</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">B</div>
+                    <h3>Brian Ungemacher</h3>
+                    <div class="team-role">Gründer & Geschäftsführer</div>
+                    <p>Mit über 30 Jahren Erfahrung im Juwelierhandwerk ist Brian das Herzstück des Unternehmens. Sein Auge für Qualität und seine faire Geschäftspolitik prägen Juwelier Glamour bis heute.</p>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-avatar">S</div>
+                    <h3>Sarah Müller</h3>
+                    <div class="team-role">Schmuckexpertin</div>
+                    <p>Sarah ist spezialisiert auf Trauringe und Verlobungsringe. Mit ihrem Gespür für Trends und klassische Eleganz berät sie Paare bei ihrer wichtigsten Wahl.</p>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-avatar">M</div>
+                    <h3>Michael Weber</h3>
+                    <div class="team-role">Goldankauf-Experte</div>
+                    <p>Michael bringt technisches Know-how und Marktkenntnis zusammen. Er garantiert faire Preise und transparente Bewertungen beim Goldankauf.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Unsere Werte</span>
+                <h2 class="section-title">Was uns auszeichnet</h2>
+            </div>
+            
+            <div class="values-grid">
+                <div class="value-item">
+                    <div class="value-icon">✓</div>
+                    <div class="value-content">
+                        <h4>Seriosität</h4>
+                        <p>Wir handeln ehrlich und transparent. Jedes Geschäft wird mit Integrität geführt.</p>
+                    </div>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">◆</div>
+                    <div class="value-content">
+                        <h4>Qualität</h4>
+                        <p>Nur das Beste für unsere Kunden – in Beratung, Service und Produkten.</p>
+                    </div>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">♦</div>
+                    <div class="value-content">
+                        <h4>Diskretion</h4>
+                        <p>Ihre Privatsphäre ist uns wichtig. Alle Geschäfte werden vertraulich behandelt.</p>
+                    </div>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">✦</div>
+                    <div class="value-content">
+                        <h4>Expertise</h4>
+                        <p>Jahrzehnte an Erfahrung und kontinuierliche Weiterbildung garantieren fachkundige Beratung.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="section bg-warm">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Vertrauen</span>
+                <h2 class="section-title">Warum Kunden uns wählen</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">25+</div>
+                    <h3>Jahre Erfahrung</h3>
+                    <p>Seit über 25 Jahren sind wir Ihr vertrauensvoller Partner in Berlin. Erfahrung, die man spürt.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">10k+</div>
+                    <h3>Zufriedene Kunden</h3>
+                    <p>Über 10.000 Kunden vertrauen uns – viele kommen immer wieder zurück und empfehlen uns weiter.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">100%</div>
+                    <h3>Transparenz</h3>
+                    <p>Keine versteckten Kosten, keine Überraschungen. Was wir versprechen, halten wir.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Lernen Sie uns persönlich kennen</h2>
+            <p>Wir freuen uns darauf, Sie in unserem Geschäft begrüßen zu dürfen. Kommen Sie vorbei und überzeugen Sie sich selbst von unserer Qualität.</p>
+            <a href="kontakt.html" class="btn btn-primary">Termin vereinbaren</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">✦</div>
+                        Juwelier <span>Glamour</span>
+                    </a>
+                    <p>Ihr vertrauensvoller Partner für Goldankauf und exquisiten Schmuck in Berlin seit 1995.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Goldankauf</a></li>
+                        <li><a href="trauringe.html">Trauringe</a></li>
+                        <li><a href="kreuzschmiede.html">Kreuzschmiede</a></li>
+                        <li><a href="ueber-uns.html">Über uns</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Kontakt</h4>
+                    <ul class="footer-links">
+                        <li>Musterstraße 123</li>
+                        <li>10115 Berlin</li>
+                        <li><a href="tel:+493012345678">030 / 12 34 56 78</a></li>
+                        <li><a href="mailto:info@juwelier-glamour.de">info@juwelier-glamour.de</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Öffnungszeiten</h4>
+                    <ul class="footer-links">
+                        <li>Mo–Fr: 10:00–18:00</li>
+                        <li>Sa: 10:00–14:00</li>
+                        <li>So: Geschlossen</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Juwelier Glamour. Alle Rechte vorbehalten.</p>
+                
+                <div class="footer-legal">
+                    <a href="kontakt.html#impressum">Impressum</a>
+                    <a href="kontakt.html#datenschutz">Datenschutz</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
