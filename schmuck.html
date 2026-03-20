@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Schmucksortiment Berlin – Elegante Schmuckstücke, Ringe, Ketten, Ohrringe & Armbänder. Exklusive Kollektion bei Juwelier Glamour.">
+    <meta name="keywords" content="Schmuck Berlin, Schmuck kaufen, Goldschmuck, Silberschmuck, Ketten, Ringe, Ohrringen, Armbänder">
+    <meta name="author" content="Juwelier Glamour">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Schmucksortiment Berlin | Juwelier Glamour">
+    <meta property="og:description" content="Entdecken Sie unsere exklusive Schmuckkollektion: Ringe, Ketten, Ohrringe & Armbänder.">
+    <meta property="og:type" content="website">
+    <title>Schmucksortiment Berlin | Eleganter Schmuck | Juwelier Glamour</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>">
+    
+    <style>
+        .schmuck-hero {
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            padding-top: 80px;
+            background: linear-gradient(135deg, var(--white) 0%, var(--warm-gray) 50%, var(--light-gold) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .schmuck-hero::before {
+            content: '';
+            position: absolute;
+            top: -20%;
+            right: -10%;
+            width: 60%;
+            height: 100%;
+            background: radial-gradient(ellipse, rgba(201, 162, 39, 0.08) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        
+        .schmuck-categories {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        
+        @media (min-width: 768px) {
+            .schmuck-categories {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        .schmuck-category {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            aspect-ratio: 1;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        
+        .schmuck-category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .schmuck-category img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        
+        .schmuck-category:hover img {
+            transform: scale(1.08);
+        }
+        
+        .schmuck-category-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 60%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 24px;
+        }
+        
+        .schmuck-category-title {
+            color: var(--white);
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            margin-bottom: 4px;
+        }
+        
+        .schmuck-category-count {
+            color: var(--champagne);
+            font-size: 0.85rem;
+        }
+        
+        .schmuck-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+        
+        @media (min-width: 576px) {
+            .schmuck-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .schmuck-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+        
+        .schmuck-item {
+            background: var(--white);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid rgba(201, 162, 39, 0.1);
+            transition: var(--transition);
+        }
+        
+        .schmuck-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(201, 162, 39, 0.15);
+            border-color: rgba(201, 162, 39, 0.3);
+        }
+        
+        .schmuck-item-image {
+            aspect-ratio: 1;
+            overflow: hidden;
+            background: var(--warm-gray);
+        }
+        
+        .schmuck-item-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        
+        .schmuck-item:hover .schmuck-item-image img {
+            transform: scale(1.05);
+        }
+        
+        .schmuck-item-info {
+            padding: 20px;
+        }
+        
+        .schmuck-item-category {
+            font-size: 0.75rem;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+        }
+        
+        .schmuck-item-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            color: var(--black);
+        }
+        
+        .schmuck-item-description {
+            font-size: 0.85rem;
+            color: rgba(10, 10, 10, 0.6);
+            line-height: 1.5;
+        }
+        
+        .feature-banner {
+            background: linear-gradient(135deg, var(--black) 0%, #1a1a1a 100%);
+            color: var(--white);
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .feature-banner h2 {
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            margin-bottom: 24px;
+        }
+        
+        .feature-banner p {
+            max-width: 600px;
+            margin: 0 auto 40px;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+        
+        .feature-icons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-top: 50px;
+        }
+        
+        .feature-icon-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .feature-icon-box {
+            width: 70px;
+            height: 70px;
+            background: rgba(201, 162, 39, 0.15);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gold);
+            font-size: 1.75rem;
+        }
+        
+        .feature-icon-label {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.7);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">✦</div>
+                    Juwelier <span>Glamour</span>
+                </a>
+                
+                <nav class="nav-desktop">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Goldankauf</a></li>
+                        <li><a href="trauringe.html" class="nav-link">Trauringe</a></li>
+                        <li><a href="goldschmiede.html" class="nav-link">Goldschmiede</a></li>
+                        <li><a href="schmuck.html" class="nav-link active">Schmuck</a></li>
+                        <li><a href="ueber-uns.html" class="nav-link">Über uns</a></li>
+                        <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="menu-toggle" aria-label="Menü öffnen">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        
+        <nav class="nav-mobile">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Goldankauf</a></li>
+                <li><a href="trauringe.html" class="nav-link">Trauringe</a></li>
+                <li><a href="goldschmiede.html" class="nav-link">Goldschmiede</a></li>
+                <li><a href="schmuck.html" class="nav-link active">Schmuck</a></li>
+                <li><a href="ueber-uns.html" class="nav-link">Über uns</a></li>
+                <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="schmuck-hero">
+        <div class="container">
+            <div class="section-header" style="text-align: left; max-width: 600px; margin: 0 0 40px 0;">
+                <span class="section-label">Unsere Kollektion</span>
+                <h1 class="section-title" style="font-size: clamp(2rem, 5vw, 3.5rem);">Exquisiter<br><span style="color: #C9A227;">Schmuck</span></h1>
+                <p class="section-subtitle" style="text-align: left;">Entdecken Sie unsere sorgfältig kuratierte Auswahl an edlem Schmuck. Jedes Stück erzählt eine Geschichte von Eleganz und zeitloser Schönheit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section" id="kategorien">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Kategorien</span>
+                <h2 class="section-title">Unsere Schmuckwelten</h2>
+            </div>
+            
+            <div class="schmuck-categories">
+                <div class="schmuck-category">
+                    <img src="https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=600&q=80" alt="Ringe Kollektion" loading="lazy">
+                    <div class="schmuck-category-overlay">
+                        <span class="schmuck-category-title">Ringe</span>
+                        <span class="schmuck-category-count">Gold, Silber, Diamant</span>
+                    </div>
+                </div>
+                
+                <div class="schmuck-category">
+                    <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=80" alt="Ketten Kollektion" loading="lazy">
+                    <div class="schmuck-category-overlay">
+                        <span class="schmuck-category-title">Ketten</span>
+                        <span class="schmuck-category-count">Collieren, Anhänger</span>
+                    </div>
+                </div>
+                
+                <div class="schmuck-category">
+                    <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&q=80" alt="Ohrringe Kollektion" loading="lazy">
+                    <div class="schmuck-category-overlay">
+                        <span class="schmuck-category-title">Ohrringe</span>
+                        <span class="schmuck-category-count">Stecker, Hänger, Creolen</span>
+                    </div>
+                </div>
+                
+                <div class="schmuck-category">
+                    <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=80" alt="Armbänder Kollektion" loading="lazy">
+                    <div class="schmuck-category-overlay">
+                        <span class="schmuck-category-title">Armbänder</span>
+                        <span class="schmuck-category-count">Armreifen, Tennis</span>
+                    </div>
+                </div>
+                
+                <div class="schmuck-category">
+                    <img src="https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?w=600&q=80" alt="Broschen Kollektion" loading="lazy">
+                    <div class="schmuck-category-overlay">
+                        <span class="schmuck-category-title">Broschen</span>
+                        <span class="schmuck-category-count">Klassik, Modern</span>
+                    </div>
+                </div>
+                
+                <div class="schmuck-category">
+                    <img src="https://images.unsplash.com/photo-1602751584552-8ba73aad10e3?w=600&q=80" alt="Anhänger Kollektion" loading="lazy">
+                    <div class="schmuck-category-overlay">
+                        <span class="schmuck-category-title">Anhänger</span>
+                        <span class="schmuck-category-count">Charms, Symbole</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Jewelry Section -->
+    <section class="section bg-warm" id="highlights">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Highlights</span>
+                <h2 class="section-title">Ausgewählte Stücke</h2>
+                <p class="section-subtitle">Ein Blick auf unsere aktuellen Lieblingsstücke aus der Kollektion.</p>
+            </div>
+            
+            <div class="schmuck-grid">
+                <div class="schmuck-item">
+                    <div class="schmuck-item-image">
+                        <img src="https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=500&q=80" alt="Solitär Ring" loading="lazy">
+                    </div>
+                    <div class="schmuck-item-info">
+                        <div class="schmuck-item-category">Ring</div>
+                        <h3 class="schmuck-item-title">Solitär Diamant</h3>
+                        <p class="schmuck-item-description">750er Gold mit brilliantem Diamant in Krappenfassung.</p>
+                    </div>
+                </div>
+                
+                <div class="schmuck-item">
+                    <div class="schmuck-item-image">
+                        <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&q=80" alt="Goldenes Collier" loading="lazy">
+                    </div>
+                    <div class="schmuck-item-info">
+                        <div class="schmuck-item-category">Collier</div>
+                        <h3 class="schmuck-item-title">Venezianerkette</h3>
+                        <p class="schmuck-item-description">585er Gold, flache Panzerkettengliederung.</p>
+                    </div>
+                </div>
+                
+                <div class="schmuck-item">
+                    <div class="schmuck-item-image">
+                        <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&q=80" alt="Perlen Ohrringe" loading="lazy">
+                    </div>
+                    <div class="schmuck-item-info">
+                        <div class="schmuck-item-category">Ohrringe</div>
+                        <h3 class="schmuck-item-title">Perlen Creolen</h3>
+                        <p class="schmuck-item-description">925er Silber mit Süßwasserperlen.</p>
+                    </div>
+                </div>
+                
+                <div class="schmuck-item">
+                    <div class="schmuck-item-image">
+                        <img src="https://images.unsplash.com/photo-1599643478518-17488fbbcd75?w=500&q=80" alt="Filigranes Armband" loading="lazy">
+                    </div>
+                    <div class="schmuck-item-info">
+                        <div class="schmuck-item-category">Armband</div>
+                        <h3 class="schmuck-item-title">Filigran-Armband</h3>
+                        <p class="schmuck-item-description">750er Gold mit filigranem Muster.</p>
+                    </div>
+                </div>
+                
+                <div class="schmuck-item">
+                    <div class="schmuck-item-image">
+                        <img src="https://images.unsplash.com/photo-1602751584552-8ba73aad10e3?w=500&q=80" alt="Herz Anhänger" loading="lazy">
+                    </div>
+                    <div class="schmuck-item-info">
+                        <div class="schmuck-item-category">Anhänger</div>
+                        <h3 class="schmuck-item-title">Herz mit Rubin</h3>
+                        <p class="schmuck-item-description">585er Gold mit facettiertem Rubin.</p>
+                    </div>
+                </div>
+                
+                <div class="schmuck-item">
+                    <div class="schmuck-item-image">
+                        <img src="https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?w=500&q=80" alt="Brosche" loading="lazy">
+                    </div>
+                    <div class="schmuck-item-info">
+                        <div class="schmuck-item-category">Brosche</div>
+                        <h3 class="schmuck-item-title">Blütenbrosche</h3>
+                        <p class="schmuck-item-description">585er Gold mit Zirkonia-Besatz.</p>
+                    </div>
+                </div>
+                
+                <div class="schmuck-item">
+                    <div class="schmuck-item-image">
+                        <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&q=80" alt="Smaragd Ring" loading="lazy">
+                    </div>
+                    <div class="schmuck-item-info">
+                        <div class="schmuck-item-category">Ring</div>
+                        <h3 class="schmuck-item-title">Smaragd-Ring</h3>
+                        <p class="schmuck-item-description">750er Gold mit grünem Smaragd.</p>
+                    </div>
+                </div>
+                
+                <div class="schmuck-item">
+                    <div class="schmuck-item-image">
+                        <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500&q=80" alt="Kettenanhänger" loading="lazy">
+                    </div>
+                    <div class="schmuck-item-info">
+                        <div class="schmuck-item-category">Anhänger</div>
+                        <h3 class="schmuck-item-title">Kreuz-Anhänger</h3>
+                        <p class="schmuck-item-description">750er Gold mit feiner Gravur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Banner -->
+    <section class="feature-banner">
+        <div class="container">
+            <span class="section-label" style="color: var(--champagne);">Unser Service</span>
+            <h2>Warum bei uns kaufen?</h2>
+            <p>Bei Juwelier Glamour bieten wir nicht nur exquisiten Schmuck, sondern auch erstklassigen Service, der Sie begeistern wird.</p>
+            
+            <div class="feature-icons">
+                <div class="feature-icon-item">
+                    <div class="feature-icon-box">✦</div>
+                    <span class="feature-icon-label">Handgefertigt</span>
+                </div>
+                
+                <div class="feature-icon-item">
+                    <div class="feature-icon-box">♦</div>
+                    <span class="feature-icon-label">Echte Edelsteine</span>
+                </div>
+                
+                <div class="feature-icon-item">
+                    <div class="feature-icon-box">✓</div>
+                    <span class="feature-icon-label">Zertifiziert</span>
+                </div>
+                
+                <div class="feature-icon-item">
+                    <div class="feature-icon-box">⟲</div>
+                    <span class="feature-icon-label">Wartung</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" style="background: linear-gradient(135deg, #C9A227 0%, #D4AF7A 100%);">
+        <div class="container">
+            <h2>Besuchen Sie uns</h2>
+            <p style="color: rgba(255, 255, 255, 0.9);">Erleben Sie unsere Schmuckstücke hautnah. Vereinbaren Sie einen Termin oder besuchen Sie uns direkt vor Ort.</p>
+            <a href="kontakt.html" class="btn btn-secondary" style="border-color: white; color: white;">Kontakt aufnehmen</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">✦</div>
+                        Juwelier <span>Glamour</span>
+                    </a>
+                    <p>Ihr vertrauensvoller Partner für Goldankauf und exquisiten Schmuck in Berlin seit 1995.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Goldankauf</a></li>
+                        <li><a href="trauringe.html">Trauringe</a></li>
+                        <li><a href="goldschmiede.html">Goldschmiede</a></li>
+                        <li><a href="schmuck.html">Schmuck</a></li>
+                        <li><a href="ueber-uns.html">Über uns</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Kontakt</h4>
+                    <ul class="footer-links">
+                        <li>Musterstraße 123</li>
+                        <li>10115 Berlin</li>
+                        <li><a href="tel:+493012345678">030 / 12 34 56 78</a></li>
+                        <li><a href="mailto:info@juwelier-glamour.de">info@juwelier-glamour.de</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Öffnungszeiten</h4>
+                    <ul class="footer-links">
+                        <li>Mo–Fr: 10:00–18:00</li>
+                        <li>Sa: 10:00–14:00</li>
+                        <li>So: Geschlossen</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Juwelier Glamour. Alle Rechte vorbehalten.</p>
+                
+                <div class="footer-legal">
+                    <a href="kontakt.html#impressum">Impressum</a>
+                    <a href="kontakt.html#datenschutz">Datenschutz</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
