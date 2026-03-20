@@ -98,6 +98,13 @@ img {
     gap: 8px;
 }
 
+.logo-img {
+    height: 40px;
+    width: auto;
+    max-width: 180px;
+    object-fit: contain;
+}
+
 .logo-icon {
     width: 32px;
     height: 32px;
@@ -492,6 +499,12 @@ img {
     color: var(--gold);
     font-size: 1.5rem;
     margin-bottom: 24px;
+}
+
+.service-icon svg {
+    width: 28px;
+    height: 28px;
+    stroke: var(--gold);
 }
 
 .service-card h3 {
