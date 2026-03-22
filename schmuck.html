@@ -27,27 +27,6 @@
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>">
     
     <style>
-        .schmuck-hero {
-            min-height: 60vh;
-            display: flex;
-            align-items: center;
-            padding-top: 80px;
-            background: linear-gradient(135deg, var(--white) 0%, var(--warm-gray) 50%, var(--light-gold) 100%);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .schmuck-hero::before {
-            content: '';
-            position: absolute;
-            top: -20%;
-            right: -10%;
-            width: 60%;
-            height: 100%;
-            background: radial-gradient(ellipse, rgba(201, 162, 39, 0.08) 0%, transparent 70%);
-            pointer-events: none;
-        }
-        
         .schmuck-categories {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -278,12 +257,25 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="schmuck-hero">
+    <section class="hero" style="min-height: 70vh;">
         <div class="container">
-            <div class="section-header" style="text-align: left; max-width: 600px; margin: 0 0 40px 0;">
-                <span class="section-label">Unsere Kollektion</span>
-                <h1 class="section-title" style="font-size: clamp(2rem, 5vw, 3.5rem);">Exquisiter<br><span style="color: #C9A227;">Schmuck</span></h1>
-                <p class="section-subtitle" style="text-align: left;">Entdecken Sie unsere sorgfältig kuratierte Auswahl an edlem Schmuck. Jedes Stück erzählt eine Geschichte von Eleganz und zeitloser Schönheit.</p>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">Eleganz & Zeitlosigkeit</div>
+                    <h1>Exquisiter<br><span>Schmuck</span></h1>
+                    <p class="hero-subtitle">Entdecken Sie unsere sorgfältig kuratierte Auswahl an edlem Schmuck. Jedes Stück erzählt eine Geschichte von Eleganz und zeitloser Schönheit – gefertigt mit höchster Präzision.</p>
+                    <div class="hero-buttons">
+                        <a href="kontakt.html" class="btn btn-primary">Beratungstermin</a>
+                        <a href="#kategorien" class="btn btn-secondary">Kollektion entdecken</a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="hero-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=800&q=80" alt="Exquisiter Schmuck - Juwelier Glamour Berlin" loading="eager">
+                    </div>
+                    <div class="hero-image-accent"></div>
+                </div>
             </div>
         </div>
     </section>
