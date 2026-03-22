@@ -973,6 +973,12 @@ textarea.form-control {
     gap: 20px;
 }
 
+@media (max-width: 576px) {
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}
+
 .form-error {
     color: #e74c3c;
     font-size: 0.8rem;
