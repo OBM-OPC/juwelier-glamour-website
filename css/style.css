@@ -188,10 +188,12 @@ img {
     right: 0;
     bottom: 0;
     background: var(--white);
+    background-color: #FFFFFF;
     transform: translateX(100%);
     transition: var(--transition);
     z-index: 999;
     padding: 40px 24px;
+    overflow-y: auto;
 }
 
 .nav-mobile.active {
@@ -206,6 +208,8 @@ img {
 .nav-mobile .nav-link {
     font-size: 1.25rem;
     font-family: 'Playfair Display', serif;
+    display: block;
+    padding: 12px 0;
 }
 
 /* ========================================
