@@ -62,15 +62,102 @@ img {
 }
 
 /* ========================================
+   HEADER WRAPPER (Sticky Container)
+   ======================================== */
+
+.header-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* ========================================
+   SUBHEADER
+   ======================================== */
+
+.subheader {
+    background: var(--gold);
+    color: var(--black);
+    padding: 8px 0;
+    font-size: 0.9rem;
+}
+
+.subheader .container {
+    display: flex;
+    align-items: center;
+}
+
+.subheader-inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+
+.subheader a {
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.subheader a:hover {
+    color: var(--white);
+}
+
+.subheader i {
+    color: var(--black);
+    font-size: 0.85rem;
+}
+
+.subheader-static {
+    display: flex;
+    gap: 24px;
+}
+
+.subheader-rotator {
+    display: none;
+}
+
+/* Mobile: Rotator */
+@media (max-width: 768px) {
+    .subheader-inner {
+        justify-content: center;
+    }
+    
+    .subheader-static {
+        display: none;
+    }
+    
+    .subheader-rotator {
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: 20px;
+        overflow: hidden;
+    }
+    
+    .subheader-rotator a {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        white-space: nowrap;
+    }
+    
+    .subheader-rotator a.active {
+        opacity: 1;
+    }
+}
+
+/* ========================================
    HEADER & NAVIGATION
    ======================================== */
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(201, 162, 39, 0.1);
@@ -303,7 +390,7 @@ img {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 120px;
+    padding-top: 60px;
     padding-bottom: 60px;
     background: linear-gradient(135deg, var(--white) 0%, var(--warm-gray) 100%);
     position: relative;

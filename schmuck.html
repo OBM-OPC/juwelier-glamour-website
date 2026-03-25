@@ -217,6 +217,24 @@
 </head>
 <body>
     <!-- Header -->
+    <div class="header-wrapper">
+    <!-- Subheader -->
+    <div class="subheader">
+        <div class="container">
+            <div class="subheader-inner">
+                <div class="subheader-static">
+                    <a href="tel:+493097997949"><i class="fa-solid fa-phone"></i> (030) 97 99 79 49</a>
+                    <a href="mailto:info@juwelier-glamour.de"><i class="fa-solid fa-envelope"></i> info@juwelier-glamour.de</a>
+                </div>
+                
+                <div class="subheader-rotator">
+                    <a href="tel:+493097997949" class="active"><i class="fa-solid fa-phone"></i> (030) 97 99 79 49</a>
+                    <a href="mailto:info@juwelier-glamour.de"><i class="fa-solid fa-envelope"></i> info@juwelier-glamour.de</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <header class="header">
         <div class="container">
             <div class="header-inner">
@@ -257,6 +275,8 @@
     </header>
 
     <!-- Hero Section -->
+    </div>
+
     <section class="hero" style="min-height: 70vh;">
         <div class="container">
             <div class="hero-content">
@@ -559,5 +579,22 @@
     </footer>
 
     <script src="js/main.js"></script>
+
+
+    <script>
+        // Rotator für Mobile
+        if (window.innerWidth <= 768) {
+            const rotator = document.querySelector('.subheader-rotator');
+            if (rotator) {
+                const items = rotator.querySelectorAll('a');
+                let current = 0;
+                setInterval(function() {
+                    items[current].classList.remove('active');
+                    current = (current + 1) % items.length;
+                    items[current].classList.add('active');
+                }, 4000);
+            }
+        }
+    </script>
 </body>
 </html>
