@@ -280,23 +280,23 @@ img {
     }
     
     .nav-mobile {
-        display: block;
+        display: block !important;
         height: 100svh;
         position: fixed;
-        top: 80px;
+        top: 112px;
         left: 0;
         right: 0;
         bottom: 0;
         background: var(--white);
-        transform: translateX(100%);
-        transition: var(--transition);
+        transform: translateX(100%) !important;
+        transition: transform 0.3s ease;
         z-index: 999;
         padding: 60px 32px;
         -webkit-overflow-scrolling: touch;
     }
     
     .nav-mobile.active {
-        transform: translateX(0);
+        transform: translateX(0) !important;
     }
     
     .menu-toggle {
@@ -332,17 +332,6 @@ img {
         left: 50%;
         transform: translateX(-50%);
     }
-    
-    .menu-toggle {
-        position: absolute;
-        right: 24px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-}
-
-.nav-mobile.active {
-    transform: translateX(0);
 }
 
 .nav-mobile .nav-list {
