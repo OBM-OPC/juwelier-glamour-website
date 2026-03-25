@@ -22,6 +22,11 @@
     padding: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -33,7 +38,7 @@ body {
     line-height: 1.6;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
+    position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -280,23 +285,35 @@ img {
     }
     
     .nav-mobile {
-        display: block !important;
+        display: none;
         height: 100svh;
+        width: 100%;
         position: fixed;
         top: 112px;
         left: 0;
         right: 0;
         bottom: 0;
         background: var(--white);
-        transform: translateX(100%) !important;
-        transition: transform 0.3s ease;
         z-index: 999;
         padding: 60px 32px;
         -webkit-overflow-scrolling: touch;
+        overflow-y: auto;
     }
     
     .nav-mobile.active {
-        transform: translateX(0) !important;
+        display: block !important;
+        animation: slideIn 0.3s ease;
+    }
+    
+    @keyframes slideIn {
+        from {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
     }
     
     .menu-toggle {
