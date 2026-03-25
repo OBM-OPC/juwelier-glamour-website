@@ -252,15 +252,9 @@ img {
     color: var(--gold);
 }
 
-/* Mobile Menu Toggle */
+/* Mobile Menu Toggle - Default hidden */
 .menu-toggle {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    cursor: pointer;
-    padding: 8px;
-    background: none;
-    border: none;
+    display: none;
 }
 
 /* Desktop: Navigation und Toggle ausblenden, mobile Nav anzeigen */
@@ -293,7 +287,6 @@ img {
         right: 0;
         bottom: 0;
         background: var(--white);
-        background-color: #FFFFFF;
         transform: translateX(100%);
         transition: var(--transition);
         z-index: 999;
@@ -304,6 +297,30 @@ img {
     .nav-mobile.active {
         transform: translateX(0);
     }
+    
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+        padding: 8px;
+        background: none;
+        border: none;
+        position: absolute;
+        right: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1001;
+    }
+    
+    .menu-toggle span {
+        display: block;
+        width: 24px;
+        height: 2px;
+        background: var(--black);
+        transition: var(--transition);
+    }
+    
     .header-inner {
         position: relative;
         justify-content: center;
