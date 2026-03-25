@@ -131,6 +131,7 @@ img {
 @media (max-width: 768px) {
     .subheader-inner {
         justify-content: center;
+        position: relative;
     }
     
     .subheader-static {
@@ -140,15 +141,14 @@ img {
     .subheader-rotator {
         display: flex;
         align-items: center;
+        justify-content: center;
+        width: 100%;
         position: relative;
         height: 20px;
-        overflow: hidden;
     }
     
     .subheader-rotator a {
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
         opacity: 0;
         transition: opacity 0.5s ease;
         white-space: nowrap;

@@ -397,23 +397,27 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
-
-
-    <script>
+    <script src="js/main.js"></script>    <script>
         // Rotator für Mobile
-        if (window.innerWidth <= 768) {
+        document.addEventListener('DOMContentLoaded', function() {
             const rotator = document.querySelector('.subheader-rotator');
             if (rotator) {
                 const items = rotator.querySelectorAll('a');
-                let current = 0;
-                setInterval(function() {
-                    items[current].classList.remove('active');
-                    current = (current + 1) % items.length;
-                    items[current].classList.add('active');
-                }, 5000);
+                if (items.length > 0) {
+                    // Ensure first item is active
+                    items.forEach((item, index) => {
+                        item.classList.toggle('active', index === 0);
+                    });
+                    
+                    let current = 0;
+                    setInterval(function() {
+                        items[current].classList.remove('active');
+                        current = (current + 1) % items.length;
+                        items[current].classList.add('active');
+                    }, 5000);
+                }
             }
-        }
+        });
     </script>
 </body>
 </html>
