@@ -197,6 +197,27 @@ img {
     -webkit-overflow-scrolling: touch;
 }
 
+/* Mobile: Logo mittig */
+@media (max-width: 991px) {
+    .header-inner {
+        position: relative;
+        justify-content: center;
+    }
+    
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .menu-toggle {
+        position: absolute;
+        right: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
 .nav-mobile.active {
     transform: translateX(0);
 }
