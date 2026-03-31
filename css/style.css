@@ -519,7 +519,7 @@ img {
 
 .hero-content {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     min-height: calc(100vh - 140px);
 }
@@ -532,6 +532,7 @@ img {
     border-radius: 12px;
     border: 1px solid rgba(201, 164, 107, 0.3);
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .hero-badge {
@@ -576,6 +577,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+    justify-content: center;
 }
 
 .hero-image {
@@ -640,9 +642,10 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-top: 60px;
+    margin-top: 40px;
     padding-top: 40px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+    justify-content: center;
 }
 
 .trust-badge {
@@ -1438,11 +1441,12 @@ textarea.form-control {
     }
     
     .hero-content {
-        justify-content: flex-start;
+        justify-content: center;
     }
     
     .hero-text {
         max-width: 550px;
+        margin: 0 auto;
     }
     
     .about-content {
