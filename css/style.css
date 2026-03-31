@@ -974,7 +974,7 @@ img {
 
 .about-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 60px;
     align-items: center;
 }
@@ -1451,15 +1451,14 @@ textarea.form-control {
     }
     
     .about-content {
-        flex-wrap: nowrap !important;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
     }
     
     .about-content > * {
-        flex: 1;
-    }
-    
-    .about-content .about-text, .about-content .about-image {
-        flex: 1 1 0;
+        flex: 1 1 50%;
+        max-width: 50%;
     }
     
     .contact-content {
