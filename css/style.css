@@ -1452,6 +1452,7 @@ textarea.form-control {
     
     .about-content {
         grid-template-columns: 1fr 1fr;
+        align-items: center;
     }
     
     .contact-content {
