@@ -974,7 +974,7 @@ img {
 
 .about-content {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 60px;
     align-items: center;
 }
