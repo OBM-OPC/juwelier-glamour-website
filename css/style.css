@@ -973,8 +973,8 @@ img {
    ======================================== */
 
 .about-content {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 60px;
     align-items: center;
 }
@@ -1451,8 +1451,11 @@ textarea.form-control {
     }
     
     .about-content {
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    .about-content > * {
+        flex: 1;
     }
     
     .contact-content {
