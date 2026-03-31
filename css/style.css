@@ -522,6 +522,7 @@ img {
     justify-content: center;
     align-items: center;
     min-height: calc(100vh - 140px);
+    gap: 60px;
 }
 
 .hero-text {
