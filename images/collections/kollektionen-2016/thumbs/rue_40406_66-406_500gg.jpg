@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<title>Seite nicht gefunden</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="http://juwelier-glamour.de/feed/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Kommentar-Feed" href="http://juwelier-glamour.de/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/juwelier-glamour.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.29"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55358,56760,9792,65039],[55358,56760,8203,9792,65039])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cookie-notice-front-css'  href='http://juwelier-glamour.de/wp-content/plugins/cookie-notice/css/front.min.css?ver=4.9.29' type='text/css' media='all' />
+<link rel='stylesheet' id='fcb-main-css-css'  href='http://juwelier-glamour.de/wp-content/plugins/formcraft-form-builder/assets/css/form.main.css?ver=1.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='fcb-common-css-css'  href='http://juwelier-glamour.de/wp-content/plugins/formcraft-form-builder/assets/css/common-elements.css?ver=1.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='fcb-fontello-css-css'  href='http://juwelier-glamour.de/wp-content/plugins/formcraft-form-builder/assets/fontello/css/fcb.css?ver=1.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='fcb-fontello-animation-css-css'  href='http://juwelier-glamour.de/wp-content/plugins/formcraft-form-builder/assets/fontello/css/animation.css?ver=1.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='ashe-style-css'  href='http://juwelier-glamour.de/wp-content/themes/ashe-pro-premium/style.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ashe-responsive-css'  href='http://juwelier-glamour.de/wp-content/themes/ashe-pro-premium/assets/css/responsive.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fontello-css'  href='http://juwelier-glamour.de/wp-content/themes/ashe-pro-premium/assets/css/fontello.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css'  href='http://juwelier-glamour.de/wp-content/themes/ashe-pro-premium/assets/css/slick.css?ver=4.9.29' type='text/css' media='all' />
+<link rel='stylesheet' id='scrollbar-css'  href='http://juwelier-glamour.de/wp-content/themes/ashe-pro-premium/assets/css/perfect-scrollbar.css?ver=4.9.29' type='text/css' media='all' />
+<link rel='stylesheet' id='ashe_enqueue_Dancing_Script-css'  href='http://fonts.googleapis.com/css?family=Dancing+Script%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ashe_enqueue_Open_Sans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ashe_enqueue_Playfair_Display-css'  href='http://fonts.googleapis.com/css?family=Playfair+Display%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;ver=1.0.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://juwelier-glamour.de/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://juwelier-glamour.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxurl":"http:\/\/juwelier-glamour.de\/wp-admin\/admin-ajax.php","hideEffect":"fade","onScroll":"no","onScrollOffset":"100","cookieName":"cookie_notice_accepted","cookieValue":"true","cookieTime":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"","cache":"","refuse":"no","revoke_cookies":"0","revoke_cookies_opt":"automatic","secure":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://juwelier-glamour.de/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.2.44'></script>
+<link rel='https://api.w.org/' href='http://juwelier-glamour.de/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://juwelier-glamour.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://juwelier-glamour.de/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.29" />
+<!-- <meta name="NextGEN" version="3.0.16" /> -->
+<meta property="og:image" content="http://juwelier-glamour.de/wp-content/uploads/2018/10/Unbenannt-1-1.png"/><meta property="og:title" content=""/><meta property="og:description" content="" /><meta property="og:url" content="http://juwelier-glamour.de/" /><meta property="og:type" content="website"><meta property="og:locale" content="de" /><meta property="og:site_name" content=""/><style id="ashe_dynamic_css">body {background-color: #ffffff;}#top-bar,#top-menu .sub-menu {background-color: #232323;}#top-bar a {color: #848484;}#top-menu .sub-menu,#top-menu .sub-menu a {border-color: rgba(132,132,132, 0.05);}#top-bar a:hover,#top-bar li.current-menu-item > a,#top-bar li.current-menu-ancestor > a,#top-bar .sub-menu li.current-menu-item > a,#top-bar .sub-menu li.current-menu-ancestor> a {color: #ca9b52;}.header-logo a,.site-description {color: #111111;}.entry-header {background-color: #ffffff;}#main-nav,#main-menu .sub-menu,#main-nav #s {background-color: #515151;}#main-nav a,#main-nav .svg-inline--fa,#main-nav #s,.instagram-title h2 {color: #ffffff;}.main-nav-sidebar span,.sidebar-alt-close-btn span,.mobile-menu-btn span {background-color: #ffffff;}#main-nav {box-shadow: 0px 1px 5px rgba(255,255,255, 0.1);}#main-menu .sub-menu,#main-menu .sub-menu a {border-color: rgba(255,255,255, 0.05);}#main-nav #s::-webkit-input-placeholder { /* Chrome/Opera/Safari */color: rgba(255,255,255, 0.7);}#main-nav #s::-moz-placeholder { /* Firefox 19+ */color: rgba(255,255,255, 0.7);}#main-nav #s:-ms-input-placeholder { /* IE 10+ */color: rgba(255,255,255, 0.7);}#main-nav #s:-moz-placeholder { /* Firefox 18- */color: rgba(255,255,255, 0.7);}#main-nav a:hover,#main-nav .svg-inline--fa:hover,#main-nav li.current-menu-item > a,#main-nav li.current-menu-ancestor > a,#main-nav .sub-menu li.current-menu-item > a,#main-nav .sub-menu li.current-menu-ancestor> a {color: #ca9b52;}.main-nav-sidebar:hover span,.mobile-menu-btn:hover span {background-color: #ca9b52;}/* Background */.sidebar-alt,.main-content,.featured-slider-area,#featured-links,.page-content select,.page-content input,.page-content textarea {background-color: #ffffff;}.page-content #featured-links h6,.instagram-title h2 {background-color: rgba(255,255,255, 0.85);}.ashe_promo_box_widget h6 {background-color: #ffffff;}.ashe_promo_box_widget .promo-box:after{border-color: #ffffff;}/* Text */.page-content,.page-content select,.page-content input,.page-content textarea,.page-content .post-author a,.page-content .ashe-widget a,.page-content .comment-author,.page-content #featured-links h6,.ashe_promo_box_widget h6 {color: #464646;}/* Title */.page-content h1 a,.page-content h1,.page-content h2,.page-content h3,.page-content h4,.page-content h5,.page-content h6,.page-content .author-description h4 a,.page-content .related-posts h4 a,.page-content .blog-pagination .previous-page a,.page-content .blog-pagination .next-page a,blockquote,.page-content .post-share a {color: #232323;}.page-content h1 a:hover {color: rgba(35,35,35, 0.75);}/* Meta */.page-content .post-date,.page-content .post-comments,.page-content .meta-sep,.page-content .post-author,.page-content [data-layout*="list"] .post-author a,.page-content .related-post-date,.page-content .comment-meta a,.page-content .author-share a,.page-content .post-tags a,.page-content .tagcloud a,.widget_categories li,.widget_archive li,.ashe-subscribe-text p,.rpwwt-post-author,.rpwwt-post-categories,.rpwwt-post-date,.rpwwt-post-comments-number {color: #7a7a7a;}.page-content input::-webkit-input-placeholder { /* Chrome/Opera/Safari */color: #7a7a7a;}.page-content input::-moz-placeholder { /* Firefox 19+ */color: #7a7a7a;}.page-content input:-ms-input-placeholder { /* IE 10+ */color: #7a7a7a;}.page-content input:-moz-placeholder { /* Firefox 18- */color: #7a7a7a;}/* Accent */.page-content a,.post-categories,#page-wrap .ashe-widget.widget_text a,#page-wrap .ashe-widget.ashe_author_widget a {color: #ca9b52;}.page-content .elementor a,.page-content .elementor a:hover {color: inherit;}.ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {background: #ca9b52;}.page-content a:hover {color: rgba(202,155,82, 0.8);}blockquote {border-color: #ca9b52;}.slide-caption {color: #ffffff;background: #ca9b52;}/* Selection */::-moz-selection {color: #ffffff;background: #ca9b52;}::selection {color: #ffffff;background: #ca9b52;}.page-content .wprm-rating-star svg polygon {stroke: #ca9b52;}.page-content .wprm-rating-star-full svg polygon,.page-content .wprm-comment-rating svg path,.page-content .comment-form-wprm-rating svg path{fill: #ca9b52;}/* Border */.page-content .post-footer,[data-layout*="list"] .blog-grid > li,.page-content .author-description,.page-content .related-posts,.page-content .entry-comments,.page-content .ashe-widget li,.page-content #wp-calendar,.page-content #wp-calendar caption,.page-content #wp-calendar tbody td,.page-content .widget_nav_menu li a,.page-content .widget_pages li a,.page-content .tagcloud a,.page-content select,.page-content input,.page-content textarea,.widget-title h2:before,.widget-title h2:after,.post-tags a,.gallery-caption,.wp-caption-text,table tr,table th,table td,pre,.page-content .wprm-recipe-instruction {border-color: #e8e8e8;}.page-content .wprm-recipe {box-shadow: 0 0 3px 1px #e8e8e8;}hr {background-color: #e8e8e8;}.wprm-recipe-details-container,.wprm-recipe-notes-container p {background-color: rgba(232,232,232, 0.4);}/* Buttons */.widget_search .svg-fa-wrap,.widget_search #searchsubmit,.single-navigation i,.page-content input.submit,.page-content .blog-pagination.numeric a,.page-content .blog-pagination.load-more a,.page-content .mc4wp-form-fields input[type="submit"],.page-content .widget_wysija input[type="submit"],.page-content .post-password-form input[type="submit"],.page-content .wpcf7 [type="submit"],.page-content .wprm-recipe-print,.page-content .wprm-jump-to-recipe-shortcode,.page-content .wprm-print-recipe-shortcode {color: #ffffff;background-color: #232323;}.single-navigation i:hover,.page-content input.submit:hover,.page-content .blog-pagination.numeric a:hover,.page-content .blog-pagination.numeric span,.page-content .blog-pagination.load-more a:hover,.page-content .mc4wp-form-fields input[type="submit"]:hover,.page-content .widget_wysija input[type="submit"]:hover,.page-content .post-password-form input[type="submit"]:hover,.page-content .wpcf7 [type="submit"]:hover,.page-content .wprm-recipe-print:hover,.page-content .wprm-jump-to-recipe-shortcode:hover,.page-content .wprm-print-recipe-shortcode:hover {color: #ffffff;background-color: #ca9b52;}/* Image Overlay */.image-overlay,#infscr-loading,.page-content h4.image-overlay,.image-overlay a,.post-slider .prev-arrow,.post-slider .next-arrow,.header-slider-prev-arrow,.header-slider-next-arrow,.page-content .image-overlay a,#featured-slider .slick-arrow,#featured-slider .slider-dots,.header-slider-dots {color: #ffffff;}#featured-slider .slick-active,.header-slider-dots .slick-active {background: #ffffff;}.image-overlay,#infscr-loading,.page-content h4.image-overlay {background-color: rgba(35,35,35, 0.3);}/* Background */#page-footer,#page-footer select,#page-footer input,#page-footer textarea {background-color: #232323;}/* Text */#page-footer,#page-footer a,#page-footer select,#page-footer input,#page-footer textarea {color: #7a7a7a;}/* Title */#page-footer h1,#page-footer h2,#page-footer h3,#page-footer h4,#page-footer h5,#page-footer h6 {color: #ffffff;}/* Accent */#page-footer a:hover {color: #ca9b52;}/* Border */#page-footer a,#page-footer .ashe-widget li,#page-footer #wp-calendar,#page-footer #wp-calendar caption,#page-footer #wp-calendar th,#page-footer #wp-calendar td,#page-footer .widget_nav_menu li a,#page-footer select,#page-footer input,#page-footer textarea,#page-footer .widget-title h2:before,#page-footer .widget-title h2:after,.footer-widgets {border-color: #e0dbdb;}#page-footer hr {background-color: #e0dbdb;}.ashe-preloader-wrap {background-color: #ffffff;}@media screen and ( max-width: 768px ) {.header-logo a:first-of-type {display: none;}.header-logo .mobile-logo {display: inline-block;}}@media screen and ( max-width: 768px ) {.featured-slider-area {display: none;}}@media screen and ( max-width: 768px ) {#featured-links {display: none;}}@media screen and ( max-width: 640px ) {.related-posts {display: none;}}.header-logo {font-family: 'Dancing Script';}.header-logo a {font-size: 120px;line-height: 120px;letter-spacing: -1px;font-weight: 700;}.header-logo .site-description {font-size: 25px;}#top-menu li a {font-family: 'Open Sans';font-size: 13px;line-height: 33px;letter-spacing: 3.3px;font-weight: 400;}.top-bar-socials a {font-size: 13px;line-height: 33px;}#top-bar .mobile-menu-btn {line-height: 33px;}#top-menu .sub-menu > li > a {font-size: 11px;line-height: 27px;letter-spacing: 3.3px;}@media screen and ( max-width: 979px ) {.top-bar-socials {float: none !important;}.top-bar-socials a {line-height: 40px !important;}}#main-menu li a {font-family: 'Open Sans';font-size: 15px;line-height: 40px;letter-spacing: 4px;font-weight: 400;}#mobile-menu li {font-family: 'Open Sans';font-size: 15px;line-height: 33px;letter-spacing: 4px;font-weight: 400;}.main-nav-search,#main-nav #s,.main-nav-socials-trigger {font-size: 15px;line-height: 40px;}#main-nav #s {line-height: 41px;}#main-menu li.menu-item-has-children>a:after {font-size: 15px;}#main-nav {min-height:40px;}.main-nav-sidebar {height:40px;}#main-menu .sub-menu > li > a,#mobile-menu .sub-menu > li {font-size: 12px;line-height: 30px;letter-spacing: 3.3px;}.mobile-menu-btn {font-size: 18px;line-height: 40px;}.main-nav-socials a {font-size: 14px;line-height: 40px;}#top-menu li a,#main-menu li a,#mobile-menu li {text-transform: uppercase;}.post-meta,#wp-calendar thead th,#wp-calendar caption,h1,h2,h3,h4,h5,h6,blockquote p,#reply-title,#reply-title a {font-family: 'Playfair Display';}/* font size 40px */h1 {font-size: 40px;}/* font size 36px */h2 {font-size: 36px;}/* font size 30px */h3 {font-size: 30px;}/* font size 24px */h4 {font-size: 24px;}/* font size 22px */h5,.page-content .wprm-recipe-name,.page-content .wprm-recipe-header {font-size: 22px;}/* font size 20px */h6 {font-size: 20px;}/* font size 19px */blockquote p {font-size: 19px;}/* font size 18px */.related-posts h4 a {font-size: 18px;}/* font size 16px */.author-description h4,#reply-title,#reply-title a,.comment-title,.widget-title h2,.ashe_author_widget h3 {font-size: 16px;}.post-title,.page-title {line-height: 44px;}/* letter spacing 0.5px */.slider-title,.post-title,.page-title,.related-posts h4 a {letter-spacing: 0.5px;}/* letter spacing 1.5px */.widget-title h2,.author-description h4,.comment-title,#reply-title,#reply-title a,.ashe_author_widget h3 {letter-spacing: 1.5px;}/* letter spacing 2px */.related-posts h3 {letter-spacing: 2px;}/* font weight */h1,h2,h3,h4,h5,h6 {font-weight: 400;}h1,h2,h3,h4,h5,h6 {font-style: normal;}h1,h2,h3,h4,h5,h6 {text-transform: none;}body,.page-404 h2,#featured-links h6,.ashe_promo_box_widget h6,.comment-author,.related-posts h3,.instagram-title h2,input,textarea,select,.no-result-found h1,.ashe-subscribe-text h4,.widget_wysija_cont .updated,.widget_wysija_cont .error,.widget_wysija_cont .xdetailed-errors {font-family: 'Open Sans';}body,.page-404 h2,.no-result-found h1 {font-weight: 400;}body,.comment-author {font-size: 15px;}body p,.post-content li,.comment-text li {line-height: 25px;}/* letter spacing 0 */body p,.comment-author,.widget_recent_comments li,.widget_meta li,.widget_recent_comments li,.widget_pages > ul > li,.widget_archive li,.widget_categories > ul > li,.widget_recent_entries ul li,.widget_nav_menu li,.related-post-date,.post-media .image-overlay a,.post-meta,.rpwwt-post-title {letter-spacing: 0px;}/* letter spacing 0.5 + */.post-author,.post-media .image-overlay span,blockquote p {letter-spacing: 0.5px;}/* letter spacing 1 + */#main-nav #searchform input,#featured-links h6,.ashe_promo_box_widget h6,.instagram-title h2,.ashe-subscribe-text h4,.page-404 p,#wp-calendar caption {letter-spacing: 1px;}/* letter spacing 2 + */.comments-area #submit,.tagcloud a,.mc4wp-form-fields input[type='submit'],.widget_wysija input[type='submit'],.slider-read-more a,.post-categories a,.read-more a,.no-result-found h1,.blog-pagination a,.blog-pagination span {letter-spacing: 2px;}/* font size 18px */.post-media .image-overlay p,.post-media .image-overlay a {font-size: 18px;}/* font size 16px */.ashe_social_widget .social-icons a {font-size: 16px;}/* font size 14px */.post-author,.post-share,.related-posts h3,input,textarea,select,.comment-reply-link,.wp-caption-text,.author-share a,#featured-links h6,.ashe_promo_box_widget h6,#wp-calendar,.instagram-title h2 {font-size: 14px;}/* font size 13px */.slider-categories,.slider-read-more a,.read-more a,.blog-pagination a,.blog-pagination span,.footer-socials a,.rpwwt-post-author,.rpwwt-post-categories,.rpwwt-post-date,.rpwwt-post-comments-number,.copyright-info,.footer-menu-container {font-size: 13px;}/* font size 12px */.post-categories a,.post-tags a,.widget_recent_entries ul li span,#wp-calendar caption,#wp-calendar tfoot #prev a,#wp-calendar tfoot #next a {font-size: 12px;}/* font size 11px */.related-post-date,.comment-meta,.tagcloud a {font-size: 11px !important;}.boxed-wrapper {max-width: 1140px;}.sidebar-alt {max-width: 340px;left: -340px; padding: 85px 35px 0px;}.sidebar-left,.sidebar-right {width: 307px;}[data-layout*="rsidebar"] .main-container,[data-layout*="lsidebar"] .main-container {float: left;width: calc(100% - 307px);width: -webkit-calc(100% - 307px);}[data-layout*="lrsidebar"] .main-container {width: calc(100% - 614px);width: -webkit-calc(100% - 614px);}[data-layout*="fullwidth"] .main-container {width: 100%;}#top-bar > div,#main-nav > div,#featured-links,.main-content,.page-footer-inner,.featured-slider-area.boxed-wrapper {padding-left: 30px;padding-right: 30px;}#top-menu {float: left;}.top-bar-socials {float: right;}.entry-header {height: 280px;background-size: cover;}.entry-header-slider div {height: 280px;}.entry-header {background-position: center center;}.header-logo {padding-top: 0px;}.logo-img {max-width: 500px;}.header-logo a:not(.logo-img),.site-description {display: none;}@media screen and (max-width: 880px) {.logo-img { max-width: 300px;}}#main-nav {text-align: center;}.main-nav-icons.main-nav-socials-mobile {left: 30px;}.main-nav-socials-trigger {position: absolute;top: 0px;left: 30px;}.main-nav-sidebar + .main-nav-socials-trigger {left: 60px;}.main-nav-sidebar {position: absolute;top: 0px;left: 30px;z-index: 1;}.main-nav-icons {position: absolute;top: 0px;right: 30px;z-index: 2;}#featured-slider.boxed-wrapper {max-width: 1140px;}.slider-item-bg {height: 540px;}#featured-links .featured-link {margin-right: 20px;}#featured-links .featured-link:last-of-type {margin-right: 0;}#featured-links .featured-link {width: calc( (100% - -20px) / 0 - 1px);width: -webkit-calc( (100% - -20px) / 0 - 1px);}.featured-link:nth-child(1) .cv-inner {display: none;}.featured-link:nth-child(2) .cv-inner {display: none;}.featured-link:nth-child(3) .cv-inner {display: none;}.featured-link:nth-child(4) .cv-inner {display: none;}.featured-link:nth-child(5) .cv-inner {display: none;}.blog-grid > li,.main-container .featured-slider-area {margin-bottom: 30px;}[data-layout*="col2"] .blog-grid > li,[data-layout*="col3"] .blog-grid > li,[data-layout*="col4"] .blog-grid > li {display: inline-block;vertical-align: top;margin-right: 37px;}[data-layout*="col2"] .blog-grid > li:nth-of-type(2n+2),[data-layout*="col3"] .blog-grid > li:nth-of-type(3n+3),[data-layout*="col4"] .blog-grid > li:nth-of-type(4n+4) {margin-right: 0;}[data-layout*="col1"] .blog-grid > li {width: 100%;}[data-layout*="col2"] .blog-grid > li {width: calc((100% - 37px ) / 2 - 1px);width: -webkit-calc((100% - 37px ) / 2 - 1px);}[data-layout*="col3"] .blog-grid > li {width: calc((100% - 2 * 37px ) / 3 - 2px);width: -webkit-calc((100% - 2 * 37px ) / 3 - 2px);}[data-layout*="col4"] .blog-grid > li {width: calc((100% - 3 * 37px ) / 4 - 1px);width: -webkit-calc((100% - 3 * 37px ) / 4 - 1px);}[data-layout*="rsidebar"] .sidebar-right {padding-left: 37px;}[data-layout*="lsidebar"] .sidebar-left {padding-right: 37px;}[data-layout*="lrsidebar"] .sidebar-right {padding-left: 37px;}[data-layout*="lrsidebar"] .sidebar-left {padding-right: 37px;}.blog-grid .post-header,.blog-grid .read-more,[data-layout*="list"] .post-share {text-align: center;}.home .post-content > p:first-of-type:first-letter,.archive .post-content > p:first-of-type:first-letter {float: left;margin: 0px 12px 0 0;font-family: 'Playfair Display';font-size: 80px;line-height: 65px;text-align: center;text-transform: uppercase;color: #232323;}@-moz-document url-prefix() {.home .post-content > p:first-of-type:first-letter,.archive .post-content > p:first-of-type:first-letter {margin-top: 10px !important;}}.single .post-content > p:first-of-type:first-letter {float: left;margin: 0px 12px 0 0;font-family: 'Playfair Display';font-size: 80px;line-height: 65px;text-align: center;text-transform: uppercase;color: #232323;}@-moz-document url-prefix() {.single .post-content > p:first-of-type:first-letter {margin-top: 10px !important;}}[data-dropcaps*='yes'] .post-content > p:first-of-type:first-letter {float: left;margin: 0px 12px 0 0;font-family: 'Playfair Display';font-size: 80px;line-height: 65px;text-align: center;text-transform: uppercase;color: #232323;}@-moz-document url-prefix() {[data-dropcaps*='yes'] .post-content > p:first-of-type:first-letter {margin-top: 10px !important;}}.footer-widgets > .ashe-widget {width: 30%;margin-right: 5%;}.footer-widgets > .ashe-widget:nth-child(3n+3) {margin-right: 0;}.footer-widgets > .ashe-widget:nth-child(3n+4) {clear: both;}.copyright-info {float: right;}.footer-socials {float: left;}.footer-menu-container {float: right;}#footer-menu {float: left;}#footer-menu > li {margin-right: 5px;}.footer-menu-container:after {float: left;margin-right: 5px;}.cssload-container{width:100%;height:36px;text-align:center}.cssload-speeding-wheel{width:36px;height:36px;margin:0 auto;border:2px solid #232323;border-radius:50%;border-left-color:transparent;border-right-color:transparent;animation:cssload-spin 575ms infinite linear;-o-animation:cssload-spin 575ms infinite linear;-ms-animation:cssload-spin 575ms infinite linear;-webkit-animation:cssload-spin 575ms infinite linear;-moz-animation:cssload-spin 575ms infinite linear}@keyframes cssload-spin{100%{transform:rotate(360deg);transform:rotate(360deg)}}@-o-keyframes cssload-spin{100%{-o-transform:rotate(360deg);transform:rotate(360deg)}}@-ms-keyframes cssload-spin{100%{-ms-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes cssload-spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-moz-keyframes cssload-spin{100%{-moz-transform:rotate(360deg);transform:rotate(360deg)}}</style>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<link rel="icon" href="http://juwelier-glamour.de/wp-content/uploads/2018/09/logo-75x75.png" sizes="32x32" />
+<link rel="icon" href="http://juwelier-glamour.de/wp-content/uploads/2018/09/logo.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://juwelier-glamour.de/wp-content/uploads/2018/09/logo.png" />
+<meta name="msapplication-TileImage" content="http://juwelier-glamour.de/wp-content/uploads/2018/09/logo.png" />
+</head>
+
+<body class="error404 wp-custom-logo cookies-not-set">
+
+	<!-- Preloader -->
+	
+<div class="ashe-preloader-wrap">
+
+	
+	<div class="cssload-container">
+		<div class="cssload-speeding-wheel"></div>
+	</div>
+
+	
+</div><!-- .ashe-preloader-wrap -->
+
+
+	<!-- Page Wrapper -->
+	<div id="page-wrap">
+
+		<!-- Boxed Wrapper -->
+		<div id="page-header" >
+
+		
+<div class="entry-header" data-bg-type="slider" style="background-image:url();" data-video-mp4="" data-video-webm="">
+
+	<div class="cvr-container">
+		<div class="cvr-outer">
+			<div class="cvr-inner">
+
+			
+			<div class="header-logo">
+
+				
+				<a href="http://juwelier-glamour.de/" title="" class="logo-img">
+					<img src="http://juwelier-glamour.de/wp-content/uploads/2018/10/Unbenannt-1-1.png" alt="">
+				</a>
+				
+				
+								<a href="http://juwelier-glamour.de/" title="" class="mobile-logo">
+					<img src="http://juwelier-glamour.de/wp-content/uploads/2018/09/logo.png" alt="">
+				</a>
+								
+				<br>
+				<p class="site-description"></p>
+				
+			</div>
+			
+			
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="entry-header-slider" data-slick="{&quot;slidesToShow&quot;: 1, &quot;autoplay&quot;: true, &quot;autoplaySpeed&quot;: 4000, &quot;arrows&quot;: false, &quot;fade&quot;: true}">
+				<div  class="entry-header-slider-item" style="background-image:url(http://juwelier-glamour.de/wp-content/uploads/2018/10/b1-1.jpg);"></div>
+				<div  class="entry-header-slider-item" style="background-image:url(http://juwelier-glamour.de/wp-content/uploads/2018/10/b2-1.jpg);"></div>
+			</div>
+	
+	
+
+		
+</div>
+
+
+<div id="main-nav" class="clear-fix" data-fixed="1" data-mobile-fixed="1">
+
+	<div >	
+		
+		<!-- Alt Sidebar Icon -->
+		
+		<!-- Social Trigger Icon -->
+		
+		<!-- Icons -->
+		<div class="main-nav-icons">
+			
+					</div>
+
+		<nav class="main-menu-container"><ul id="main-menu" class=""><li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-15"><a href="http://juwelier-glamour.de/">HOME</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="http://juwelier-glamour.de/ueber-uns/">ÜBER UNS</a></li>
+<li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-53"><a href="http://juwelier-glamour.de/trauringe/">TRAURINGE</a>
+<ul class="sub-menu">
+	<li id="menu-item-9967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9967"><a href="http://juwelier-glamour.de/simonundsoehne/">– SIMON&#038;SÖHNE</a></li>
+	<li id="menu-item-5060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5060"><a href="http://juwelier-glamour.de/ruesch/">-RUESCH TRAURINGE</a></li>
+	<li id="menu-item-5059" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5059"><a href="http://juwelier-glamour.de/rubin/">-RUBIN TRAURINGE</a></li>
+	<li id="menu-item-5058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5058"><a href="http://juwelier-glamour.de/celik/">-CELIK TRAURINGE</a></li>
+</ul>
+</li>
+<li id="menu-item-2014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2014"><a href="http://juwelier-glamour.de/goldschmiede/">GOLDSCHMIEDE</a></li>
+<li id="menu-item-2026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2026"><a href="http://juwelier-glamour.de/uhrmacherei/">UHRMACHER</a></li>
+<li id="menu-item-4978" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4978"><a href="http://juwelier-glamour.de/goldankauf/">GOLDANKAUF</a></li>
+<li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="http://juwelier-glamour.de/schmuck/">SCHMUCK</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a href="http://juwelier-glamour.de/uhren/">UHREN</a></li>
+<li id="menu-item-1914" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1914"><a href="http://juwelier-glamour.de/filialen/">FILIALEN</a></li>
+<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="http://juwelier-glamour.de/kontakt/">KONTAKT</a></li>
+</ul></nav>
+		<!-- Mobile Menu Button -->
+		<span class="mobile-menu-btn">
+			<div>
+							<i class="fas fa-chevron-down"></i>		
+						</div>
+		</span>
+
+	</div>
+
+	<nav class="mobile-menu-container"><ul id="mobile-menu" class=""><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-15"><a href="http://juwelier-glamour.de/">HOME</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="http://juwelier-glamour.de/ueber-uns/">ÜBER UNS</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-53"><a href="http://juwelier-glamour.de/trauringe/">TRAURINGE</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9967"><a href="http://juwelier-glamour.de/simonundsoehne/">– SIMON&#038;SÖHNE</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5060"><a href="http://juwelier-glamour.de/ruesch/">-RUESCH TRAURINGE</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5059"><a href="http://juwelier-glamour.de/rubin/">-RUBIN TRAURINGE</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5058"><a href="http://juwelier-glamour.de/celik/">-CELIK TRAURINGE</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2014"><a href="http://juwelier-glamour.de/goldschmiede/">GOLDSCHMIEDE</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2026"><a href="http://juwelier-glamour.de/uhrmacherei/">UHRMACHER</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4978"><a href="http://juwelier-glamour.de/goldankauf/">GOLDANKAUF</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="http://juwelier-glamour.de/schmuck/">SCHMUCK</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a href="http://juwelier-glamour.de/uhren/">UHREN</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1914"><a href="http://juwelier-glamour.de/filialen/">FILIALEN</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="http://juwelier-glamour.de/kontakt/">KONTAKT</a></li>
+ </ul></nav>	
+</div><!-- #main-nav -->
+
+		</div><!-- .boxed-wrapper -->
+
+		<!-- Page Content -->
+		<div class="page-content">
+
+			
+	<div class="page-404">	
+		
+		<h2>Page not found!</h2>
+
+		<p>It seems we can&#039;t find what you&#039;re looking for. Perhaps searching can help or go back to 		<a href="http://juwelier-glamour.de/">Homepage</a></p>
+	
+	</div>
+
+		</div><!-- .page-content -->
+
+		<!-- Page Footer -->
+		<footer id="page-footer" class="clear-fix">
+			
+			<!-- Scroll Top Button -->
+						<span class="scrolltop icon-angle-up"></span>
+			
+			<!-- Instagram Widget -->
+			
+			<div class="page-footer-inner ">
+
+			<!-- Footer Widgets -->
+			
+<div class="footer-widgets clear-fix">
+	<div id="text-2" class="ashe-widget widget_text"><div class="widget-title"><h2>Filiale im Allee-Center Berlin</h2></div>			<div class="textwidget"><p>Landsberger Allee 277</p>
+<p>13055 Berlin</p>
+<p>Tel.: (030) 97 99 79 49</p>
+<p>Montag &#8211; Samstag 09:30 &#8211; 20:00 Uhr</p>
+</div>
+		</div><div id="text-4" class="ashe-widget widget_text"><div class="widget-title"><h2>Information</h2></div>			<div class="textwidget"><p><a href="http://juwelier-glamour.de/datenschutzerklaerung">Datenschutzerklärung</a></p>
+<p><a href="http://www.juwelier-glamour.de/impressum">Impressum</a></p>
+</div>
+		</div></div>
+			<div class="footer-copyright">
+								
+				<div class="copyright-info">Copyright by Juwelier Glamour - 2026 &copy;</div>	
+				
+							</div>
+
+			</div><!-- .boxed-wrapper -->
+
+		</footer><!-- #page-footer -->
+
+	</div><!-- #page-wrap -->
+
+<script type='text/javascript' src='http://juwelier-glamour.de/wp-content/themes/ashe-pro-premium/assets/js/custom-plugins.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://juwelier-glamour.de/wp-content/themes/ashe-pro-premium/assets/js/custom-scripts.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://juwelier-glamour.de/wp-includes/js/wp-embed.min.js?ver=4.9.29'></script>
+
+			<div id="cookie-notice" role="banner" class="cn-bottom bootstrap" style="color: #fff; background-color: #000;"><div class="cookie-notice-container"><span id="cn-notice-text">Diese Website benutzt Cookies. Wenn Sie die Website weiter nutzen, gehen wir von Ihrem Einverständnis aus.</span><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button bootstrap button">OK</a>
+				</div>
+				
+			</div>
+</body>
+</html>
