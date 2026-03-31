@@ -1333,7 +1333,7 @@ textarea.form-control {
 }
 
 .footer-brand p {
-    color: var(--text-black);
+    color: var(--cream);
     font-size: 0.9rem;
     line-height: 1.7;
 }
@@ -1352,10 +1352,11 @@ textarea.form-control {
 
 .footer-links li {
     margin-bottom: 12px;
+    color: var(--cream);
 }
 
 .footer-links a {
-    color: var(--text-black);
+    color: var(--cream);
     font-size: 0.9rem;
     transition: var(--transition);
 }
@@ -1375,7 +1376,7 @@ textarea.form-control {
 }
 
 .footer-bottom p {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 0.85rem;
 }
 
@@ -1385,9 +1386,9 @@ textarea.form-control {
 }
 
 .footer-legal a {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.85);
     font-size: 0.85rem;
-}
+
 
 .footer-legal a:hover {
     color: var(--gold);
