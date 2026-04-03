@@ -1043,7 +1043,8 @@ img {
 
 .about-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     gap: 40px;
     align-items: start;
 }
@@ -1528,6 +1529,7 @@ textarea.form-control {
     }
     
     .about-content {
+        flex-direction: row;
         flex-wrap: nowrap;
         grid-template-columns: none;
     }
