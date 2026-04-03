@@ -1466,7 +1466,7 @@ textarea.form-control {
 .footer-legal a {
     color: rgba(255, 255, 255, 0.85);
     font-size: 0.85rem;
-
+}
 
 .footer-legal a:hover {
     color: var(--gold);
