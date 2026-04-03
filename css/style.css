@@ -41,6 +41,74 @@
     --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
+/* ========================================
+   RUESCH TRAURINGE PAGE
+   ======================================== */
+
+.ngg-widget.entry-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.ngg-widget.entry-content a {
+    display: inline-block;
+}
+
+.ngg-widget.entry-content img {
+    width: 140px;
+    height: auto;
+}
+
+.main-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.post-header,
+.post-content {
+    text-align: center;
+}
+
+.textwidget img.wp-image-1515 {
+    display: block;
+    margin: 0 auto 28px;
+    max-width: 100%;
+    height: auto;
+}
+
+.post-header .page-title,
+.entry-title.widget-title,
+.section-title,
+.section-header h1,
+.section-header h2,
+.section-header h3 {
+    font-family: "Playfair Display", serif;
+    letter-spacing: 0.02em;
+    margin: 0 0 18px;
+    line-height: 1.2;
+}
+
+.post-header .page-title {
+    font-size: clamp(1.9rem, 2.6vw, 2.6rem);
+    margin-bottom: 22px;
+}
+
+.entry-title.widget-title {
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
+    margin: 26px 0 18px;
+}
+
+.section-title {
+    margin-bottom: 16px;
+}
+
+.section-subtitle {
+    margin-bottom: 26px;
+}
+
 /* Reset & Base */
 *, *::before, *::after {
     box-sizing: border-box;
