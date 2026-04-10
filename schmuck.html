@@ -213,6 +213,41 @@
             text-transform: uppercase;
             letter-spacing: 1px;
         }
+        
+        /* Mobile Hero Adjustments */
+        @media (max-width: 768px) {
+            .hero {
+                min-height: auto !important;
+                padding: 100px 0 40px !important;
+            }
+            
+            .hero-content {
+                flex-direction: column !important;
+                gap: 2rem !important;
+            }
+            
+            .hero-text {
+                order: 1;
+                text-align: center;
+                max-width: 100% !important;
+            }
+            
+            .hero-image {
+                order: 2;
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+            
+            .hero-image-wrapper {
+                aspect-ratio: 16/10 !important;
+            }
+            
+            .hero-image img {
+                object-fit: cover !important;
+                width: 100% !important;
+                height: 100% !important;
+            }
+        }
     </style>
 </head>
 <body>
