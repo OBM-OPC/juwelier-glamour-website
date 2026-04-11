@@ -85,10 +85,16 @@
         
         .values-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr;
             gap: 30px;
             margin-top: 40px;
             justify-items: center;
+        }
+        
+        @media (min-width: 480px) {
+            .values-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
         
         .value-item {
