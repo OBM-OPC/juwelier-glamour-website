@@ -24,37 +24,15 @@
     <link rel="stylesheet" href="css/style.css">
     
     <style>
-        /* Services Grid - Letzte 2 Kacheln strecken */
+        /* Services Grid - 2 Kacheln pro Zeile */
         @media (min-width: 768px) {
             .services-grid {
                 display: grid;
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: repeat(2, 1fr);
                 gap: 2rem;
             }
-            .services-grid .service-card:nth-last-child(-n+2) {
-                grid-column: span 1.5;
-            }
-            /* Alternative: Letzte 2 gleichmäßig verteilen */
-            .services-grid .service-card:nth-last-child(2) {
-                grid-column: 1 / span 1.5;
-            }
-            .services-grid .service-card:last-child {
-                grid-column: 2.5 / span 1.5;
-            }
-        }
-        
-        /* Bessere Lösung: Letzte 2 auf volle Breite aufteilen */
-        @media (min-width: 900px) {
-            .services-grid {
-                display: grid;
-                grid-template-columns: repeat(6, 1fr);
-                gap: 2rem;
-            }
-            .services-grid .service-card:nth-child(-n+3) {
-                grid-column: span 2;
-            }
-            .services-grid .service-card:nth-last-child(-n+2) {
-                grid-column: span 3;
+            .services-grid .service-card {
+                grid-column: span 1 !important;
             }
         }
         
