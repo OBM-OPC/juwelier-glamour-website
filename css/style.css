@@ -252,6 +252,11 @@ img {
     .subheader-rotator a.active {
         opacity: 1;
     }
+    
+    /* Mobile Logo kleiner */
+    .logo-image img {
+        height: 28px !important;
+    }
 }
 
 /* ========================================
