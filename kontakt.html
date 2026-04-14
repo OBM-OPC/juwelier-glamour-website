@@ -192,8 +192,9 @@
                             </div>
                             
                             <div class="form-group">
+                                <input type="hidden" name="_subject" id="emailSubject" value="Neue Anfrage via Kontaktformular" data-fs-field>
                                 <label for="subject">Betreff <span>*</span></label>
-                                <select id="subject" name="subject" class="form-control" required data-fs-field>
+                                <select id="subject" name="subject" class="form-control" required data-fs-field onchange="document.getElementById('emailSubject').value = 'Anfrage: ' + this.options[this.selectedIndex].text">
                                     <option value="">Bitte wählen...</option>
                                     <option value="goldankauf">Goldankauf</option>
                                     <option value="trauringe">Trauringe / Verlobungsringe</option>
