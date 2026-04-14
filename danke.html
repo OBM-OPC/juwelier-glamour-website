@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Danke für Ihre Nachricht | Juwelier Glamour</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>">
+    
+    <style>
+        .thank-you-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 120px 20px 40px;
+            background: linear-gradient(135deg, var(--warm-gray) 0%, var(--white) 100%);
+        }
+        
+        .thank-you-content {
+            max-width: 600px;
+            background: var(--white);
+            padding: 60px 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+        }
+        
+        .thank-you-icon {
+            font-size: 4rem;
+            margin-bottom: 24px;
+        }
+        
+        .thank-you-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            margin-bottom: 16px;
+            color: var(--black);
+        }
+        
+        .thank-you-text {
+            color: rgba(10, 10, 10, 0.7);
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 32px;
+        }
+        
+        .thank-you-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        @media (max-width: 480px) {
+            .thank-you-content {
+                padding: 40px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Simple Header -->
+    <header style="position: fixed; top: 0; left: 0; right: 0; background: var(--white); box-shadow: 0 2px 10px rgba(0,0,0,0.05); z-index: 100;">
+        <div class="container" style="padding: 16px 20px;">
+            <a href="index.html" class="logo-image"><img src="images/logo_glamour.png" alt="Juwelier Glamour" style="height: 36px; width: auto;"></a>
+        </div>
+    </header>
+
+    <div class="thank-you-container">
+        <div class="thank-you-content">
+            <div class="thank-you-icon">✓</div>
+            <h1 class="thank-you-title">Vielen Dank für Ihre Nachricht!</h1>
+            <p class="thank-you-text">
+                Wir haben Ihre Anfrage erhalten und werden uns schnellstmöglich bei Ihnen melden. 
+                Normalerweise antworten wir innerhalb von 24 Stunden.
+            </p>
+            
+            <div class="thank-you-buttons">
+                <a href="index.html" class="btn btn-primary">Zurück zur Startseite</a>
+                <a href="kontakt.html" class="btn btn-secondary">Weitere Nachricht</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

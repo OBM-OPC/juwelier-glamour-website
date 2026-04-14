@@ -166,7 +166,11 @@
                         ✓ Vielen Dank für Ihre Nachricht! Wir werden uns in Kürze bei Ihnen melden.
                     </div>
                     
-                    <form id="contactForm" novalidate>
+                    <form id="contactForm" name="kontakt" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/danke.html" novalidate>
+                        <input type="hidden" name="form-name" value="kontakt">
+                        <p style="display: none;">
+                            <label>Bot-Abwehr: <input name="bot-field"></label>
+                        </p>
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="name">Name <span>*</span></label>

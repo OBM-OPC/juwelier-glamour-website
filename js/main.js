@@ -155,30 +155,9 @@ function initContactForm() {
         }
         
         if (isValid) {
-            // Show success message
-            const successMessage = document.getElementById('formSuccess');
-            if (successMessage) {
-                successMessage.classList.add('show');
-            }
-            
-            // Reset form
-            form.reset();
-            
-            // Hide success message after 5 seconds
-            setTimeout(() => {
-                if (successMessage) {
-                    successMessage.classList.remove('show');
-                }
-            }, 5000);
-            
-            // In production, you would send the form data to a server here
-            console.log('Form submitted:', {
-                name: name.value,
-                email: email.value,
-                phone: phone.value,
-                subject: subject.value,
-                message: message.value
-            });
+            // Form is valid - submit to Netlify
+            // The form will redirect to /danke.html after submission
+            form.submit();
         }
     });
     
