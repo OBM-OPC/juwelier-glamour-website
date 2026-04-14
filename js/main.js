@@ -99,19 +99,33 @@ function initSmoothScroll() {
 }
 
 /**
- * Contact Form Validation & Submission
+ * Contact Form Validation (Formspree handles submission)
  */
 function initContactForm() {
     const form = document.getElementById('contactForm');
     if (!form) return;
     
-    form.addEventListener('submit', function(e) {
-        e.preventDefault();
+    // Formspree handles actual submission via AJAX
+    // We just do client-side validation before submission
+    const inputs = form.querySelectorAll('.form-control');
+    inputs.forEach(input => {
+        input.addEventListener('blur', function() {
+            validateField(this);
+        });
         
-        // Reset previous errors
+        input.addEventListener('input', function() {
+            const formGroup = this.closest('.form-group');
+            if (formGroup && formGroup.classList.contains('error')) {
+                validateField(this);
+            }
+        });
+    });
+    
+    // Prevent default submission if validation fails
+    form.addEventListener('submit', function(e) {
+        // Clear previous errors
         clearErrors();
         
-        // Validate fields
         let isValid = true;
         
         const name = document.getElementById('name');
@@ -154,26 +168,10 @@ function initContactForm() {
             isValid = false;
         }
         
-        if (isValid) {
-            // Form is valid - submit to Netlify
-            // The form will redirect to /danke.html after submission
-            form.submit();
+        if (!isValid) {
+            e.preventDefault();
         }
-    });
-    
-    // Real-time validation on blur
-    const inputs = form.querySelectorAll('.form-control');
-    inputs.forEach(input => {
-        input.addEventListener('blur', function() {
-            validateField(this);
-        });
-        
-        input.addEventListener('input', function() {
-            const formGroup = this.closest('.form-group');
-            if (formGroup && formGroup.classList.contains('error')) {
-                validateField(this);
-            }
-        });
+        // If valid, Formspree AJAX will handle submission
     });
 }
 

@@ -162,25 +162,24 @@
                     <h3>Schreiben Sie uns</h3>
                     <p>Füllen Sie das Formular aus und wir melden uns umgehend bei Ihnen.</p>
                     
-                    <div class="form-success" id="formSuccess">
-                        ✓ Vielen Dank für Ihre Nachricht! Wir werden uns in Kürze bei Ihnen melden.
-                    </div>
                     
-                    <form id="contactForm" name="kontakt" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/danke.html" novalidate>
-                        <input type="hidden" name="form-name" value="kontakt">
-                        <p style="display: none;">
-                            <label>Bot-Abwehr: <input name="bot-field"></label>
-                        </p>
+                    <form id="contactForm">
+                        <div class="form-success" data-fs-success style="display: none;">
+                            ✓ Vielen Dank für Ihre Nachricht! Wir werden uns in Kürze bei Ihnen melden.
+                        </div>
+                        
+                        <div data-fs-error style="display: none; color: #dc3545; margin-bottom: 1rem;"></div>
+                        
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="name">Name <span>*</span></label>
-                                <input type="text" id="name" name="name" class="form-control" placeholder="Ihr vollständiger Name" required>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Ihr vollständiger Name" required data-fs-field>
                                 <span class="form-error">Bitte geben Sie Ihren Namen ein</span>
                             </div>
                             
                             <div class="form-group">
                                 <label for="email">E-Mail <span>*</span></label>
-                                <input type="email" id="email" name="email" class="form-control" placeholder="Ihre@email.de" required>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Ihre@email.de" required data-fs-field>
                                 <span class="form-error">Bitte geben Sie eine gültige E-Mail-Adresse ein</span>
                             </div>
                         </div>
@@ -188,13 +187,13 @@
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="phone">Telefon</label>
-                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="(030) 97 99 79 49">
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="(030) 97 99 79 49" data-fs-field>
                                 <span class="form-error">Bitte geben Sie eine gültige Telefonnummer ein</span>
                             </div>
                             
                             <div class="form-group">
                                 <label for="subject">Betreff <span>*</span></label>
-                                <select id="subject" name="subject" class="form-control" required>
+                                <select id="subject" name="subject" class="form-control" required data-fs-field>
                                     <option value="">Bitte wählen...</option>
                                     <option value="goldankauf">Goldankauf</option>
                                     <option value="trauringe">Trauringe / Verlobungsringe</option>
@@ -210,7 +209,7 @@
                         
                         <div class="form-group">
                             <label for="message">Ihre Nachricht <span>*</span></label>
-                            <textarea id="message" name="message" class="form-control" placeholder="Wie können wir Ihnen helfen?" required></textarea>
+                            <textarea id="message" name="message" class="form-control" placeholder="Wie können wir Ihnen helfen?" required data-fs-field></textarea>
                             <span class="form-error">Bitte geben Sie eine Nachricht ein (mindestens 10 Zeichen)</span>
                         </div>
                         
@@ -223,7 +222,7 @@
                             </label>
                         </div>
                         
-                        <button type="submit" class="btn btn-primary" style="width: 100%;">Nachricht senden</button>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;" data-fs-submit-btn>Nachricht senden</button>
                     </form>
                 </div>
             </div>
@@ -317,7 +316,12 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>    <script>
+    <script src="js/main.js"></script>
+    <script>
+        window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+        formspree('initForm', { formElement: '#contactForm', formId: 'mqewayyw' });
+    </script>
+    <script src="https://unpkg.com/@formspree/ajax@1" defer></script>    <script>
         // Rotator für Mobile
         document.addEventListener('DOMContentLoaded', function() {
             const rotator = document.querySelector('.subheader-rotator');
