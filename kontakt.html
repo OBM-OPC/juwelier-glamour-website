@@ -164,11 +164,11 @@
                     
                     
                     <form id="contactForm">
-                        <div class="form-success" data-fs-success style="display: none;">
+                        <div class="form-success" id="formSuccessMsg" style="display: none;">
                             ✓ Vielen Dank für Ihre Nachricht! Wir werden uns in Kürze bei Ihnen melden.
                         </div>
                         
-                        <div data-fs-error style="display: none; color: #dc3545; margin-bottom: 1rem;"></div>
+                        <div id="formErrorMsg" style="display: none; color: #dc3545; margin-bottom: 1rem; padding: 1rem; background: #fff5f5; border-radius: 8px;"></div>
                         
                         <div class="form-row">
                             <div class="form-group">
@@ -320,7 +320,19 @@
     <script src="js/main.js"></script>
     <script>
         window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
-        formspree('initForm', { formElement: '#contactForm', formId: 'mqewayyw' });
+        formspree('initForm', { 
+            formElement: '#contactForm', 
+            formId: 'mqewayyw',
+            onSuccess: function() {
+                document.getElementById('formSuccessMsg').style.display = 'block';
+                document.getElementById('formErrorMsg').style.display = 'none';
+                document.getElementById('contactForm').reset();
+            },
+            onError: function(errors) {
+                document.getElementById('formErrorMsg').textContent = 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.';
+                document.getElementById('formErrorMsg').style.display = 'block';
+            }
+        });
     </script>
     <script src="https://unpkg.com/@formspree/ajax@1" defer></script>    <script>
         // Rotator für Mobile
