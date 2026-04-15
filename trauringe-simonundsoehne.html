@@ -12,13 +12,23 @@
     <meta property="og:type" content="website">
     <title>Ruesch Trauringe Berlin | Juwelier Glamour</title>
     
-    <!-- Google Tag -->
+    <!-- Google Tag - Consent Mode ready -->
+    <script>
+        // Set default consent to denied
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'analytics_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied'
+        });
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=GT-PJ4PFHKK"></script>
     <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
-     gtag('config', 'GT-PJ4PFHKK');
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GT-PJ4PFHKK');
     </script>
     
     <!-- Fonts -->
@@ -31,6 +41,7 @@
     
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cookie-consent.css">
     
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>">
@@ -864,6 +875,7 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/cookie-consent.js"></script>
     <script>
         // Rotator für Mobile
         document.addEventListener('DOMContentLoaded', function() {
