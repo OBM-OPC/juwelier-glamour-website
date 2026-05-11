@@ -6,13 +6,21 @@
     <title>Trauring-Kollektionen | Juwelier 💎 Glamour</title>
     
     <!-- Google Tag -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GT-PJ4PFHKK"></script>
+    <!-- Google Tag Manager (consent-aware) -->
     <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
-     gtag('config', 'GT-PJ4PFHKK');
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+        window.gtag('consent', 'default', {
+            ad_storage: 'denied',
+            analytics_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            functionality_storage: 'granted',
+            security_storage: 'granted'
+        });
     </script>
+    <!-- End Google Tag Manager -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -20,6 +28,9 @@
     <link rel="stylesheet" href="css/cookie-consent.css">
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <div id="gtm-noscript-container" aria-hidden="true"></div>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Header -->
     <header class="header">
         <div class="container">
