@@ -459,5 +459,44 @@
             }
         });
     </script>
+
+<!-- Floating Contact Button -->
+<div class="floating-contact-btn" id="floatingContactBtn">
+    <div class="sub-btns">
+        <a href="tel:+4917620750204" class="sub-btn call-btn">
+            <span class="sub-icon">📞</span>
+            <span class="sub-label">+49 176 20750204</span>
+        </a>
+        <a href="tel:+493097997949" class="sub-btn call-btn">
+            <span class="sub-icon">📞</span>
+            <span class="sub-label">030 97997949</span>
+        </a>
+        <a href="https://wa.me/4917620750204" target="_blank" rel="noopener" class="sub-btn whatsapp-btn">
+            <span class="sub-icon">💬</span>
+            <span class="sub-label">WhatsApp</span>
+        </a>
+    </div>
+    <button class="main-btn" id="floatingMainBtn" aria-label="Kontakt">
+        <span class="icon-phone">📞</span>
+    </button>
+</div>
+
+<script>
+(function() {
+    var btn = document.getElementById('floatingMainBtn');
+    var container = document.getElementById('floatingContactBtn');
+    if (btn && container) {
+        btn.addEventListener('click', function() {
+            container.classList.toggle('open');
+        });
+        document.addEventListener('click', function(e) {
+            if (!container.contains(e.target)) {
+                container.classList.remove('open');
+            }
+        });
+    }
+})();
+</script>
+
 </body>
 </html>
